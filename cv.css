@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+#perkenalan {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(1, 51, 1);
+    color: white
+}
+
+#wajah {
+    height: 270px;
+    width: 100%;
+    background-color: olivedrab;
+}
+
+#tentang {
+    height: 350px;
+    width: 100%;
+    background-color: rgba(95, 95, 4, 0.644);
+    color: blacks;
+    margin: top 10px;
+}
+
+#about {
+    height: 200px;
+    width: 100%;
+    margin: top 10;
+    background-color: darkolivegreen;
+    color: black;
+}
+
+#sekolah {
+    height: 280px;
+    width: 100%;
+    margin: top 10;
+    background-color: olivedrab;
+    color: black;
+}
+
+#telepon {
+    height: 100px;
+    width: 100%;
+    margin: top 10;
+    background-color: yellowgreen;
+    color: black;
+}

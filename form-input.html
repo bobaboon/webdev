@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data</title>
+</head>
+<body>
+    <form action="input-data.php" method="post">
+     <label>NIM</label>   
+     <input type="text" name="nim">
+     <br>
+     <br>
+     <label>Nama</label>
+     <input type="text" name="nama">
+     <br>
+     <br>
+     <label>Jenis Kelamin</label>
+     <select name="jns_kelamin" id="">
+        option value="0">Pilih</option>
+        <option value="Perempuan">Perempuan</option>
+        <option value="Laki-laki">Laki-laki</option>
+     </select> 
+     <br>
+     <br>
+     <label>Tempat Lahir</label><br>
+     <input type="text" name="tpt_lahir">
+     <br>
+     <label>Tanggal Lahir</label><br>
+     <input type="text" name="tgl_lahir">
+     <br>
+     <label>Alamat</label>
+     <br>
+     <textarea name="alamat"></textarea><br>
+     <input type="submit" name="input" value="Input">
+    </form>
+</body>
+</html>
